@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BarcodeEasyScan'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Scan barcode and QR code with few lines of swift. No xib or storyboards'
 
 # This description is used to generate tags and improve search results.
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.author           = { 'harshalrj25' => 'harshalrj25@gmail.com' }
   s.source           = { :git => 'https://github.com/harshalrj25/BarcodeEasyScan.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '4.2'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'BarcodeEasyScan/Classes/**/*'
   

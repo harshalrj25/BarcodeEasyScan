@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import BarcodeEasyScan
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func buttonCLicked(){
+        // Call this controller to open barcode screen
+        let barcodeViewController =  BarcodeScannerViewController()
+        barcodeViewController.delegate = self
+        self.present(barcodeViewController, animated: true, completion: {
+        })
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension ViewController:ScanBarcodeDelegate
+{
+    func userDidScanWith(barcode: String) {
+        // This method results the scanned barcode string
+        let alert = UIAlertController(title: "THE BARCODE CONTAINS", message: "The scanned string is : \(barcode)", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
-
 }
 
