@@ -27,6 +27,7 @@ Import the pod inside your viewcontroller class.
 ```
 import BarcodeEasyScan
 ```
+You need to add the  ``` "Privacy - Camera usage description" ``` key to your app’s Info.plist
 
 Present 'BarcodeScannerViewController' and assign its delegate to self.
 ```
