@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0AC85194F70CC19DBDC303B7 /* Pods-BarcodeEasyScan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeEasyScan_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeEasyScan_Tests/Pods-BarcodeEasyScan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B512105F2F55CACC1D4A4D7 /* Pods-BarcodeEasyScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeEasyScan_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeEasyScan_Tests/Pods-BarcodeEasyScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		366A98A09CEB539D71AC30D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		366A98A09CEB539D71AC30D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D27923F954223A367310856 /* Pods_BarcodeEasyScan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcodeEasyScan_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAB2974D0D32E566C0AABD8 /* Pods-BarcodeEasyScan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeEasyScan_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeEasyScan_Example/Pods-BarcodeEasyScan_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BarcodeEasyScan_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeEasyScan_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C1A832E321CFE715221E74A7 /* Pods_BarcodeEasyScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcodeEasyScan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31AB8A063C5758020518F12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CB72FFCDC3C6BB477B6F6389 /* BarcodeEasyScan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BarcodeEasyScan.podspec; path = ../BarcodeEasyScan.podspec; sourceTree = "<group>"; };
+		C31AB8A063C5758020518F12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CB72FFCDC3C6BB477B6F6389 /* BarcodeEasyScan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BarcodeEasyScan.podspec; path = ../BarcodeEasyScan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF8FABFAF4F4381E4A5D8F1E /* Pods-BarcodeEasyScan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeEasyScan_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeEasyScan_Example/Pods-BarcodeEasyScan_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

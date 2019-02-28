@@ -1,0 +1,16 @@
+PODS:
+  - BarcodeEasyScan (0.1.0)
+
+DEPENDENCIES:
+  - BarcodeEasyScan (from `../`)
+
+EXTERNAL SOURCES:
+  BarcodeEasyScan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BarcodeEasyScan: b67165e3027683909c12e73b94f0fb98121d3d23
+
+PODFILE CHECKSUM: fdfff9c762fa38227b57582d312f8bece29129ff
+
+COCOAPODS: 1.5.3

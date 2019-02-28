@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BarcodeEasyScan'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BarcodeEasyScan.'
+  s.summary          = 'Scan barcode and QR code with few lines of swift. No xib or storyboards'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Scan your barcode by implementing a delegate which provides the string result. No need to write boilerplate codes. Just install the pod, and implement a delegate.'
 
   s.homepage         = 'https://github.com/harshalrj25/BarcodeEasyScan'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
