@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BarcodeEasyScan'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Scan barcode and QR code with few lines of swift. No xib or storyboards'
 
 # This description is used to generate tags and improve search results.
