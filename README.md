@@ -23,7 +23,7 @@ pod 'BarcodeEasyScan'
 Or Install for `Carthage` 
 
 ```ruby
-github "devuzan/BarcodeEasyScan" "master"
+github "harshalrj25/BarcodeEasyScan" "master"
 ```
 ![alt text](https://github.com/harshalrj25/MasterAssetsRepo/blob/master/barcode.gif "Barcode")
 
