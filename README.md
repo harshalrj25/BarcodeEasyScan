@@ -13,11 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation :hourglass_flowing_sand:
 
-BarcodeEasyScan is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+BarcodeEasyScan is available through [CocoaPods](https://cocoapods.org) and [Carthage](https://github.com/Carthage/Carthage):
+
+To Install for `CocoaPods` 
 
 ```ruby
 pod 'BarcodeEasyScan'
+```
+Or Install for `Carthage` 
+
+```ruby
+github "harshalrj25/BarcodeEasyScan" "master"
 ```
 ![alt text](https://github.com/harshalrj25/MasterAssetsRepo/blob/master/barcode.gif "Barcode")
 
